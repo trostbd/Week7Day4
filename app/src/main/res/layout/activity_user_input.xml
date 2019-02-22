@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInput">
+
+    <EditText
+        android:id="@+id/etSsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter SSN"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/etMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Major"/>
+
+    <EditText
+        android:id="@+id/etMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Minor"/>
+
+    <EditText
+        android:id="@+id/etGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter GPA"/>
+
+    <EditText
+        android:id="@+id/etDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter DOB"/>
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Home City"/>
+
+    <EditText
+        android:id="@+id/etState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Home State"/>
+
+    <Button
+        android:id="@+id/btSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Student"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Student"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Student"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Student"
+        android:onClick="onClick"/>
+
+</LinearLayout>

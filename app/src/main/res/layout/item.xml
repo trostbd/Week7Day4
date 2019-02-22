@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvSsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ssn"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"/>
+
+    <TextView
+        android:id="@+id/tvMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="major"/>
+
+    <TextView
+        android:id="@+id/tvMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="minor"/>
+
+    <TextView
+        android:id="@+id/tvGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gpa"/>
+
+    <TextView
+        android:id="@+id/tvDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dob"/>
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="city"/>
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="state"/>
+
+    <TextView
+        android:id="@+id/tvBlankSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>
